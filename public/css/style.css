@@ -17,4 +17,34 @@ hr{
 .title {
     font-size: 100px;
 }
+/* Class For The Movie Review titles */
+.movie_title {
+    margin-left: 25px;
+    margin-bottom: 10px;
+}
 
+.star{
+    color: yellow;
+    position:absolute;
+    margin-top: 10px;
+    
+}
+
+.Star_Rating{
+    position: absolute;
+    margin-top: 12px;
+    margin-left: 38px;
+    
+}
+
+.trailer_btn{
+    margin-top: 12px;
+    margin-left: 50px;
+}
+
+.review_btn{
+    margin-top: 12px;
+    margin-left: 10px;
+    
+
+}
