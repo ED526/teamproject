@@ -3,10 +3,18 @@ body {
 }
 
 .card{
-    background-color: cadetblue;
+    background-color: lightgray;
+    margin: 3%;
+    opacity: 100%;
 }
 
 hr{
     background-color:black;
     height: 10px;
 }
+
+/* Class for Main Website Title */
+.title {
+    font-size: 100px;
+}
+
