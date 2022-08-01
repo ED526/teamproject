@@ -13,6 +13,12 @@ hr{
     height: 10px;
 }
 
+.navbar-nav.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+}
+
 /* Class for Main Website Title */
 .title {
     font-size: 100px;
