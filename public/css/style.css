@@ -1,5 +1,5 @@
 body {
-    background-color:darksalmon;
+    background-color:rgb(27, 27, 27);
 }
 
 .card{
@@ -9,8 +9,20 @@ body {
 }
 
 hr{
-    background-color:black;
+    background-color:white;
     height: 10px;
+}
+h1{
+    color: white;
+}
+
+h3{
+    color: white;
+    font-size: 50px;
+}
+
+p{
+    color: white;
 }
 
 .navbar-nav.navbar-center {
@@ -27,6 +39,23 @@ hr{
 .movie_title {
     margin-left: 25px;
     margin-bottom: 10px;
+    font-size: 30px;
+}
+.m1_title {
+    margin-left:35px;
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+.m2_title {
+    margin-left:9px;
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+
+.m3_title {
+    margin-left:119px;
+    margin-bottom: 10px;
+    font-size: 30px;
 }
 
 .star{
@@ -40,6 +69,7 @@ hr{
     position: absolute;
     margin-top: 12px;
     margin-left: 38px;
+    color: white;
     
 }
 
@@ -55,14 +85,18 @@ hr{
 
 }
 
+/* Table */
+
 table {
     border-spacing: 0;
     width: 100%;
     border: 1px solid #ddd;
+
   }
   
-  th {
+  th, .td1 {
     cursor: pointer;
+    color: white;
   }
   
   th, td {
