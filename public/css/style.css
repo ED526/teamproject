@@ -88,6 +88,9 @@ p{
 /* Table */
 
 table {
+    color: #ddd;
+    font-size: large;
+    font-weight: bold;
     border-spacing: 0;
     width: 100%;
     border: 1px solid #ddd;
