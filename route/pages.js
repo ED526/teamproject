@@ -18,7 +18,7 @@ router.get('/requestafilm', (req, res) =>{
     res.render('requestafilm')
 })
 
-router.get('/m1, (req, res) =>{
+router.get('/m1', (req, res) =>{
     res.render('m1')
 })
 
