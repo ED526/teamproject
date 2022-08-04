@@ -18,5 +18,3 @@ mongoose.connect(mongo, {useNewURLParser: true, useUnifiedTopology: true})
     })
 })
 
-//username:     FilmRev22
-//pass:         BxgSATCBxgs8X3fM
