@@ -22,14 +22,6 @@ router.get('/m1', (req, res) =>{
     res.render('m1')
 })
 
-router.get('/m2', (req, res) =>{
-    res.render('m2')
-})
-
-router.get('/m3', (req, res) =>{
-    res.render('m3')
-})
-
 router.post('/submitContact', (req, res) =>{
     const contact = new Contact({
         fname: req.body.fname,
