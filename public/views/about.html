@@ -69,6 +69,61 @@
     </div>
   </div>  
 
+<!--Contact Form Text-->
+<div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <p>We at FilmRev provide a platform for users of all kinds to rate and review their favorite films!</p>
+        <p>Feel free to fill out the form below if you would like to contact us.</p>
+        <p>For suggesting films for us to review, click</p>
+        <h4 href="../views/reviews.html">HERE</h4>
+        <br>
+      </div>
+    </div>
+  </div>
+  <!--End of Contact Text-->
+
+  <hr>
+  <br>
+
+  <!--Start of Contact Form-->
+  <div class="container">
+    <div class="row">
+        <div class="col-12 text-center contactform p-5">
+            <form action="/submitContact" method="post">
+                <h3>Contact us</h3>
+                <div class="input-group mb-3">
+                    <span class="input-group-text" id="basic-addon1"> First Name:</span>
+                    <input type="text" class="form-control" name="fname" placeholder="Your First Name Here" aria-label="Your First Name Here" aria-describedby="basic-addon1">
+                  </div>
+
+                  <div class="input-group mb-3">
+                    <span class="input-group-text" id="basic-addon1"> Last Name:</span>
+                    <input type="text" class="form-control" name="lname" placeholder="Your Last Name Here" aria-label="Your Last Name Here" aria-describedby="basic-addon1">
+                  </div>
+                  
+                  <div class="input-group mb-3">
+                    <span class="input-group-text" id="basic-addon1"> Reason For Contact:</span>
+                    <input type="text" class="form-control" name="reason" placeholder="Your Reason For Contact Here" aria-label="Your Reason For Contact Here" aria-describedby="basic-addon1">
+                  </div>
+
+                  <div class="input-group mb-3">
+                    <input type="text" class="form-control"name="email"  placeholder="Your email here" aria-label="Your email here" aria-describedby="basic-addon2">
+                    <span class="input-group-text" id="basic-addon2">guestemail@example.com</span>
+                  </div>
+            
+                  <div class="input-group">
+                    <span class="input-group-text">Your Message Here</span>
+                    <textarea class="form-control" name="message" aria-label="Your Message Here"></textarea>
+                  </div>
+                  <button type="submit" class="btn btn-primary">Submit</button>
+                  <h4>Please Note:</h4>
+                  <p>Eddie may take up to 2 business days to respond to emails. Thank you.</p>
+            </form>
+        </div>
+    </div>
+  </div>
+
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 
