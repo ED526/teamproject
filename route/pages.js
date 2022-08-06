@@ -3,24 +3,32 @@ const router = express.Router();
 const Contact = require('./models/contact')
 
 router.get('/', (req, res) =>{
-    res.render('index')
+    res.render('index');
 })
 
-router.get('/about', (req, res) =>{
-    res.render('about')
+router.get('/contact', (req, res) =>{
+    res.render('contact');
 })
 
 router.get('/films', (req, res) =>{
-    res.render('films')
+    res.render('films');
 })
 
-router.get('/requestafilm', (req, res) =>{
-    res.render('requestafilm')
+router.get('/requestfilm', (req, res) =>{
+    res.render('requestfilm');
 })
 
-router.get('/m1', (req, res) =>{
-    res.render('m1')
+router.get('/m1_AvgEndgame', (req, res) =>{
+    res.render('m1_AvgEndgame');
 })
+router.get('/m2_MinionsRoG', (req, res) =>{
+    res.render('m2_MinionsRoG');
+})
+router.get('/m3_1917', (req, res) =>{
+    res.render('m3_1917');
+})
+
+
 
 router.post('/submitContact', (req, res) =>{
     const contact = new Contact({

@@ -4,6 +4,24 @@
     "bootstrap-icons": "^1.9.1",
     "ejs": "^3.1.8",
     "express": "^4.18.1",
-    "mongoose": "^6.5.1"
-  }
+    "mongoose": "^6.5.1",
+    "mongose": "^0.0.2-security"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "teamproject",
+  "version": "1.0.0",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ED526/teamproject.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ED526/teamproject/issues"
+  },
+  "homepage": "https://github.com/ED526/teamproject#readme",
+  "description": ""
 }
