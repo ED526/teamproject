@@ -38,7 +38,43 @@
         
         <div> 
           <a class="btn btn-primary btn-sm trailer_btn" href="https://youtu.be/UcmZN0Mbl04" role="button">Watch Trailer</a>
-          <a class="btn btn-success btn-sm review_btn" href="#" role="button">Reviews</a>
+          
+          <!-- Review button form starts here -->
+          <a class="button btn btn-success btn-sm review_btn button" href="#divOne">Rate Movie</a>
+        </div>
+        <div class="overlay" id="divOne">
+          <div class="wrapper">
+            <div class="content">
+              <div class="container_review">
+                <div class="post">
+                  <div class="text">Thanks for rating the movie!</div>
+                  <div class="edit">EDIT</div>
+                </div>
+                <div class="star-widget">
+                  <input type="radio" name="rate" id="rate-5">
+                  <label for="rate-5" class="fas fa-star"></label>
+                  <input type="radio" name="rate" id="rate-4">
+                  <label for="rate-4" class="fas fa-star"></label>
+                  <input type="radio" name="rate" id="rate-3">
+                  <label for="rate-3" class="fas fa-star"></label>
+                  <input type="radio" name="rate" id="rate-2">
+                  <label for="rate-2" class="fas fa-star"></label>
+                  <input type="radio" name="rate" id="rate-1">
+                  <label for="rate-1" class="fas fa-star"></label>
+                  <form action="#">
+                  <header></header>
+                  <div class="textarea">
+                    <textarea cols="30" placeholder="Provide your review..."></textarea>
+                  </div>
+                  <div class="btn">
+                    <button type="submit">Submit</button>
+                  </div>
+                  </form>
+                </div>
+                </div>
+            </div>
+          </div>
+          <!-- Review button form ends here -->
         </div>
 
       </div>

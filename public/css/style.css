@@ -35,6 +35,10 @@ p{
     transform: translatex(-50%);
     font-family: 'Poppins', sans-serif;
 }
+.navbar-brand {
+    font-size: 25px;
+}
+
 
 /* Class for Main Website Title */
 .title {
@@ -49,7 +53,7 @@ p{
     font-family: 'Poppins', sans-serif;
 }
 .m1_title {
-    margin-left:35px;
+    margin-left:15px;
     margin-bottom: 10px;
     font-size: 25px;
     font-family: 'Poppins', sans-serif;
@@ -85,7 +89,7 @@ p{
 
 .trailer_btn{
     margin-top: 12px;
-    margin-left: 50px;
+    margin-left: 85px;
 }
 
 .review_btn{
