@@ -1,3 +1,4 @@
+/* Main Website Styling */ 
 body {
     background-color:rgb(68, 68, 68);
 }
@@ -28,7 +29,7 @@ p{
     color: white;
     font-family: 'Poppins', sans-serif;
 }
-
+/* navbar styling */
 .navbar-nav.navbar-center {
     position: absolute;
     left: 50%;
@@ -43,12 +44,12 @@ p{
 }
 
 
-/* Class for Main Website Title */
+/*  for Main Website Title */
 .title {
     font-size: 100px;
     font-family: 'Poppins', sans-serif;
 }
-/* Class For The Movie Review titles */
+/* For The Movie Review titles */
 .movie_title {
     margin-left: 25px;
     margin-bottom: 10px;
@@ -74,7 +75,7 @@ p{
     font-size: 30px;
     font-family: 'Poppins', sans-serif;
 }
-
+/* Each movie review */
 .star{
     color: yellow;
     position:absolute;
