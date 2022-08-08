@@ -56,19 +56,19 @@ input#rate-5:checked ~ label{
   text-shadow: 0 0 20px #952;
 }
 #rate-1:checked ~ form header:before{
-  content: "1 Star";
+  content: "";
 }
 #rate-2:checked ~ form header:before{
-  content: "2 Stars";
+  content: "";
 }
 #rate-3:checked ~ form header:before{
-  content: "3 Stars";
+  content: "";
 }
 #rate-4:checked ~ form header:before{
-  content: "4 Stars";
+  content: "";
 }
 #rate-5:checked ~ form header:before{
-  content: "5 Stars";
+  content: "";
 }
 .container_review form{
   display: none;

@@ -32,8 +32,8 @@
 	padding: 20px;
 	background: #000000;
 	border-radius: 5px;
-	width: 20%;
-	position: relative;
+	width: 25%;
+	position:relative;
 	transition: all 5s ease-in-out;
 	text-align: center;
 }
