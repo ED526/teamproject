@@ -70,7 +70,7 @@ input#rate-5:checked ~ label{
 #rate-5:checked ~ form header:before{
   content: "5 Stars";
 }
-.container form{
+.container_review form{
   display: none;
 }
 input:checked ~ form{
