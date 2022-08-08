@@ -1,3 +1,4 @@
+//Contact form 
 const mongoose = require('mongoose');
 
 var contactSchema = new mongoose.Schema({

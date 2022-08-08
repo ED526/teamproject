@@ -1,3 +1,4 @@
+//java script for when review button is clicked 
 const review_btn = document.querySelector("button");
 const post = document.querySelector(".post");
 const widget = document.querySelector(".star-widget");
