@@ -56,19 +56,19 @@ input#rate-5:checked ~ label{
   text-shadow: 0 0 20px #952;
 }
 #rate-1:checked ~ form header:before{
-  content: "I just hate it ";
+  content: "1 Star";
 }
 #rate-2:checked ~ form header:before{
-  content: "I don't like it ";
+  content: "2 Stars";
 }
 #rate-3:checked ~ form header:before{
-  content: "It is awesome ";
+  content: "3 Stars";
 }
 #rate-4:checked ~ form header:before{
-  content: "I just like it ";
+  content: "4 Stars";
 }
 #rate-5:checked ~ form header:before{
-  content: "I just love it ";
+  content: "5 Stars";
 }
 .container form{
   display: none;
