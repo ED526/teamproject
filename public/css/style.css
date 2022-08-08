@@ -38,6 +38,9 @@ p{
 .navbar-brand {
     font-size: 25px;
 }
+.bottom_nav{
+    height: 50px;
+}
 
 
 /* Class for Main Website Title */
