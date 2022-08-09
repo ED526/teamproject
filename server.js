@@ -13,7 +13,7 @@ app.use('/', route);
 
 mongoose.connect(mongo, {useNewURLParser: true, useUnifiedTopology: true})
 .then(() => {
-    app.listen(3000, ()=> {
+    app.listen(process.env.PORT||3000, ()=> {
         console.log("Server is running on 3000")
     })
 })
